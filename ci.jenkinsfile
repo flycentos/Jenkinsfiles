@@ -2,7 +2,7 @@
 pipeline{
   agent { node { label "master"}}
 
-  steges {
+  steges{
     stage("build"){
        steps {
          script {
